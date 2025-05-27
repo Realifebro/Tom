@@ -13,8 +13,8 @@
     'use strict';
 
     // Your Google Sheets ID and API key (if used)
-    const sheetId = "182sBtcFMjWi0f0GQQsZLUsA11nmChLY9v1U74s72omc"; // Replace with your Google Sheet ID
-    const apiKey = "AIzaSyA5n3u-KnH3moWzQT6auU8YSyTxLFAWgs0"; // Replace with your API key
+    const sheetId = "Your_sheet_ID"; // Replace with your Google Sheet ID
+    const apiKey = "Your_API_Key"; // Replace with your API key
 
     // Google Sheets API URL (tested for public sheets)
     const sheetURL = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/Sheet1?key=${apiKey}`;
